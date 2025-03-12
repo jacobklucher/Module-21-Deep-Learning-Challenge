@@ -10,9 +10,11 @@ Data Preprocessing
 
 * Target Variable:
   * The target variable is the "IS_SUCCESSFUL" column, a binary representation of whether the applicant was successful or not.
+    
 * Feature Variables:
   * The features include different data about each organization including application type, affiliation, classification, use case for funding, organization type, status, income, special considerations, and funding requested.
   * These features were used to predict the success for an organization.
+    
 * Variables To Remove:
   * The features that were removed were the EIN (identification number) and name of the organization.
   * These features are identification columns and do not contribute to the model's predictions of organization success.
@@ -34,9 +36,11 @@ Compiling, Training, and Evaluating the Model
     * Epoch 100: Accuracy - 99.96%, Loss - 0.0019, Precision - 1.0, Recall - 0.9993
    
 * Model Performance
+  
   * Final Evaluation:
     * The model met and exceeded the target performance, achieving very high values for accuracy, loss, precision, and recall.
     * The high accuracy and low loss values suggest that the model has effectively learned to classify the applicants into successful and unsuccessful categories.
+      
   * Steps to Improve:
     * The model already shows high evaluation values, but further steps could be taken to improve the model more such as increasing the amount of epochs for training or tweaking the model layers. 
 
